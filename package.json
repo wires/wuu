@@ -1,0 +1,13 @@
+{
+  "name": "wuu",
+  "version": "1.1.1",
+  "description": "",
+  "main": "wuu.js",
+  "keywords": ["wait", "tcp"],
+  "author": "Jelle 'wires' Herold <jelle@defekt.nl>",
+  "license": "AGPL",
+  "dependencies": {
+    "tcp-port-used": "^0.1.2"
+  },
+  "bin" : { "wuu" : "./wuu.js" }
+}
