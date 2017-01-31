@@ -5,9 +5,10 @@
   "main": "wuu.js",
   "keywords": ["wait", "tcp"],
   "author": "Jelle 'wires' Herold <jelle@defekt.nl>",
-  "license": "AGPL",
+  "license": "AGPL-1.0",
   "dependencies": {
     "tcp-port-used": "^0.1.2"
   },
-  "bin" : { "wuu" : "./wuu.js" }
+  "bin" : { "wuu" : "./wuu.js" },
+  "repository" : "wires/wuu"
 }
