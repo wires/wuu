@@ -17,7 +17,7 @@ Or use in a node script:
 
 ```js
 const wuu = require('wuu')
-wuu.wait(port, host, retry, timeout).then(() => {
+wuu(port, host, retry, timeout).then(() => {
 	// that thing is listening
 })
 ```
